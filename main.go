@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-const defaultConfFile = "./conf/config.ini"
+const defaultConfFile = "./config/config.ini"
 
 func main() {
 	confFile := defaultConfFile
@@ -17,7 +17,7 @@ func main() {
 		fmt.Println("use specified conf file: ", os.Args[1])
 		confFile = os.Args[1]
 	} else {
-		fmt.Println("no configuration file was specified, use ./conf/config.ini")
+		fmt.Println("no configuration file was specified, use ./config/config.ini")
 	}
 	// 加载配置文件
 	if err := setting.Init(confFile); err != nil {
