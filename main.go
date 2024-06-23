@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-const defaultConfFile = "./config/config.ini"
+const defaultConfFile = "./config.ini"
 
 func main() {
 	confFile := defaultConfFile
