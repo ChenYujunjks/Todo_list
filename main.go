@@ -2,7 +2,7 @@ package main
 
 import (
 	"bubble/dao"
-	"bubble/models"
+	models "bubble/logic"
 	"bubble/routers"
 	"bubble/setting"
 	"fmt"
