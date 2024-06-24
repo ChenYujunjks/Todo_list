@@ -1,7 +1,7 @@
 package controller
 
 import (
-	models "bubble/logic"
+	models "bubble/logic-dao"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	models "bubble/logic"
+	models "bubble/logic-dao"
 	"bubble/routers"
 	"bubble/setting"
 	"fmt"
